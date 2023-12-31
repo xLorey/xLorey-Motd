@@ -1,0 +1,13 @@
+# List of lines that will be displayed in order when a player connects to the server (only for a specific player in the chat)
+# The following parameters can be passed to strings:
+# <USERNAME> - replaced by the player's nickname
+# <IP> - replaced by the player's ip
+# <STEAMID> - replaced by the player's steamID
+# <SPACE_SYMBOL> - replaced with a transparent symbol (needed for spaces after color)
+motdLines:
+  - <RGB:1,1,1> Привет, <RGB:0.451,0.404,0.941> <SPACE_SYMBOL> <USERNAME> <RGB:1,1,1>! Мы очень рады, что Вы зашли на данный сервер, давайте немного расскажем о нас...<LINE>
+  - <RGB:1,1,1> xLorey - это сервер построенный на базе собственной системы плагинов Flux. Как Вы могли заметить, здесь нет клиентских модификаций, все происходит исключительно на сервере. Конечно, мы стремимся не уходить далеко от оригинальной игры и сделать что-то в стиле Vanila++.
+  - <RGB:1,1,1> Настоятельно рекомендуем посетить наш <RGB:0.451,0.404,0.941> <SPACE_SYMBOL> Discord <SPACE_SYMBOL> <RGB:1,1,1> канал - <RGB:0.451,0.404,0.941> <SPACE_SYMBOL> https://discord.gg/BwSuTdEGJ4
+  - <RGB:1,1,1> Там мы делимся нашими наработками, планами и просто общаемся. У нас еще много идей и будем рады если вы поделитесь своим мнением или предложите что-то новое :) <LINE>
+  - <RGB:1,1,1> У нас так же есть пользовательские команды, используйте <RGB:0.451,0.404,0.941> <SPACE_SYMBOL> /help <SPACE_SYMBOL> <RGB:1,1,1> чтобы ознакомиться с ними <LINE>
+  - <RGB:1,1,1> Желаем приятной игры! <RGB:1,0.7,0.7> <SPACE_SYMBOL> <3 <RGB:1,1,1>

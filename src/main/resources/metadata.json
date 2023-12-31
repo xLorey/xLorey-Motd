@@ -1,0 +1,25 @@
+{
+  "name": "xLorey Motd",
+  "description": "The plugin allows you to display a custom message to players when they join the server",
+  "id": "xlorey-motd",
+  "version": "${version}",
+  "authors": [
+    "xLorey Team"
+  ],
+  "contact": [
+    "xlorey@mail.ru"
+  ],
+  "license": "MIT",
+  "icon": "icon.png",
+  "entrypoints": {
+    "client": [],
+    "server": [
+      "io.xlorey.Motd.Main"
+    ]
+  },
+  "controlsEntrypoint": "",
+  "dependencies": {
+    "project-zomboid": "=41.78.16",
+    "flux-loader": "=0.7.0"
+  }
+}
